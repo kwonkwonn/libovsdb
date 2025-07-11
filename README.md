@@ -45,7 +45,7 @@ You can create a client object with options such as the endpoint:
 Finally, the client must be connected before use:
 
     ovs.Connect(context.Background())
-    client.MonitorAll(context.Background()) // Only needed if you want to use the built-in cache
+    ovs.MonitorAll(context.Background()) // Only needed if you want to use the built-in cache
 
 Once the client object is created, a generic API can be used to interact with the Database. Some API calls can be performed on the generic API: `List`, `Get`, `Create`.
 
